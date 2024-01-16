@@ -55,21 +55,21 @@ const about = () => {
 								Biography
 							</h2>
 							<p className='font-medium   '>
-								Greetings! I'm Lucas, a dedicated frontend developer
+								Greetings! I&#39;m Lucas, a dedicated frontend developer
 								specializing in crafting captivating and user-centric
 								web interfaces. I possess 3 years of hands-on experience
 								in this ever-evolving field.
 							</p>
 							<p className='font-medium  my-4  '>
-								My approach to design transcends aesthetics; it's a
+								My approach to design transcends aesthetics; it&#39;s a
 								problem-solving endeavor that prioritizes seamless and
-								delightful user experiences. Whether it's a website, a
+								delightful user experiences. Whether it&#39;s a website, a
 								mobile app, or any digital product, I consistently
 								deliver design excellence and user-centered solutions.
 							</p>
 							<p className='font-medium   '>
 								I eagerly await the chance to channel my expertise and
-								enthusiasm into your upcoming project. Let's make your
+								enthusiasm into your upcoming project. Let&#39;s make your
 								vision a reality!
 							</p>
 						</div>
