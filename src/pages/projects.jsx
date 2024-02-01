@@ -6,6 +6,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { GithubIcon } from '@/components/Icons';
 import championShipVinylImg from "../../public/images/projects/championShip_vinyl.png"
+import coderProyectFront from '../../public/images/projects/CoderProyectFront.png'
+import CoderProyectBack from '../../public/images/projects/CoderProyectBack.png'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 const FramerImage = motion(Image)
@@ -117,20 +119,20 @@ const Projects = () => {
 
 						<div className='col-span-6 sm:col-span-12'>
 							<Project
-								title="Championship Vinyl"
-								link="https://championship-vinyl.vercel.app"
+								title="Coder Proyect Frontend"
+								link="https://github.com/RibLucas23/backendFinal-Front"
 								type="Featured Project"
-								github="https://github.com/RibLucas23/Championship-Vinyl"
-								img={championShipVinylImg}
+								github="https://github.com/RibLucas23/backendFinal-Front"
+								img={coderProyectFront}
 							/>
 						</div>
 						<div className='col-span-6 sm:col-span-12'>
 							<Project
-								title="Championship Vinyl"
-								link="https://championship-vinyl.vercel.app"
+								title="Coder Proyect Backend"
+								link="https://github.com/RibLucas23/backendFinal"
 								type="Featured Project"
-								github="https://github.com/RibLucas23/Championship-Vinyl"
-								img={championShipVinylImg}
+								github="https://github.com/RibLucas23/backendFinal"
+								img={CoderProyectBack}
 							/>
 						</div>
 					</div>
