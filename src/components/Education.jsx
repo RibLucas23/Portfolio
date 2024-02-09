@@ -52,7 +52,7 @@ const Education = () => {
 
 					<Details
 						type='Backend Develope'
-						time='2023-Present'
+						time='2023-2024'
 						place='CoderHouse'
 						info='Relevant courses included Express, NodeJS, MongoDB, Session, Passport, Server Architecture NEST and Data Structures'
 					/>
