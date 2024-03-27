@@ -44,6 +44,12 @@ const Skills = () => {
 				<Skill name='Bootstrap' x='18vw' y='-18vw' />
 				<Skill name='Material UI' x='-30vw' y='-2vw' />
 				<Skill name='Git' x='-25vw' y='5vw' />
+				<Skill name='MERN' x='-20vw' y='-5vw' />
+				<Skill name='Express' x='20vw' y='-5vw' />
+				<Skill name='Node' x='13vw' y='15vw' />
+				<Skill name='Context' x='-12vw' y='15vw' />
+
+
 			</div>
 		</>
 	);

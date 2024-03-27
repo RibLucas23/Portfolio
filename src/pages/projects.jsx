@@ -8,6 +8,7 @@ import { GithubIcon } from '@/components/Icons';
 import championShipVinylImg from "../../public/images/projects/championShip_vinyl.png"
 import coderProyectFront from '../../public/images/projects/CoderProyectFront.png'
 import CoderProyectBack from '../../public/images/projects/CoderProyectBack.png'
+import pizzaProyect from '../../public/images/projects/NicastroPizza.png'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 const FramerImage = motion(Image)
@@ -107,13 +108,12 @@ const Projects = () => {
 					<div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:!gap-x-8 md:!gap-y-24 sm:!gap-x-0 ' >
 						<div className='col-span-12'>
 							<FeaturedProject
-								title="Championship Vinyl"
-								summary="A feature-rich Vinyl Ecommerce App using React, CSS, Context API, React Router and Firebase. 
-							It was inspired by the movie High Fidelity since we are lovers of cinema and music. "
-								link="https://championship-vinyl.vercel.app"
+								title="Nicastro Pizza"
+								summary="Built with the MERN stack, this pizza ecommerce app simplifies online ordering. Users can effortlessly browse and customize their orders, enjoying seamless delivery to their doorstep."
+								link="https://pizza-project-tawny.vercel.app"
 								type="Featured Project"
-								github="https://github.com/RibLucas23/Championship-Vinyl"
-								img={championShipVinylImg}
+								github="https://github.com/RibLucas23/PizzaProject"
+								img={pizzaProyect}
 							/>
 						</div>
 
@@ -133,6 +133,17 @@ const Projects = () => {
 								type="Featured Project"
 								github="https://github.com/RibLucas23/backendFinal"
 								img={CoderProyectBack}
+							/>
+						</div>
+						<div className='col-span-12'>
+							<FeaturedProject
+								title="Championship Vinyl"
+								summary="A feature-rich Vinyl Ecommerce App using React, CSS, Context API, React Router and Firebase. 
+							It was inspired by the movie High Fidelity since we are lovers of cinema and music. "
+								link="https://championship-vinyl.vercel.app"
+								type="Featured Project"
+								github="https://github.com/RibLucas23/Championship-Vinyl"
+								img={championShipVinylImg}
 							/>
 						</div>
 					</div>

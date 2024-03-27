@@ -57,8 +57,7 @@ const about = () => {
 							<p className='font-medium   '>
 								Greetings! I&#39;m Lucas, a dedicated frontend developer
 								specializing in crafting captivating and user-centric
-								web interfaces. I possess 3 years of hands-on experience
-								in this ever-evolving field.
+								web interfaces.  I have been immersed in this ever-evolving field since 2021, bringing my passion and expertise to every project.
 							</p>
 							<p className='font-medium  my-4  '>
 								My approach to design transcends aesthetics; it&#39;s a
