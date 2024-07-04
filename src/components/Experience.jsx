@@ -63,6 +63,14 @@ const Experience = () => {
 					/>
 					<Details
 						position='FullStack Developer'
+						company='Radio Historias Comunes'
+						companyLink='https://radiosemilla.com.ar'
+						time='2024'
+						adress='Mar del Plata, Argentina'
+						work='I worked on creating an app to listen to already broadcast radio programs using NextJS, MongoDB and TaildwindCss'
+					/>
+					<Details
+						position='FullStack Developer'
 						company='Championship Vinyl'
 						companyLink='https://championship-vinyl.vercel.app'
 						time='2022-2023'
