@@ -9,6 +9,7 @@ import championShipVinylImg from "../../public/images/projects/championShip_viny
 import coderProyectFront from '../../public/images/projects/CoderProyectFront.png'
 import CoderProyectBack from '../../public/images/projects/CoderProyectBack.png'
 import pizzaProyect from '../../public/images/projects/NicastroPizza.png'
+import HCProyect from '../../public/images/projects/HC.png'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 const FramerImage = motion(Image)
@@ -144,6 +145,15 @@ const Projects = () => {
 								type="Featured Project"
 								github="https://github.com/RibLucas23/Championship-Vinyl"
 								img={championShipVinylImg}
+							/>
+						</div>
+						<div className='col-span-6 sm:col-span-12'>
+							<Project
+								title="Historias Comunes"
+								link="https://historias-comunes.vercel.app"
+								type="Featured Project"
+								github="https://github.com/RibLucas23/historiasComunes"
+								img={HCProyect}
 							/>
 						</div>
 					</div>
