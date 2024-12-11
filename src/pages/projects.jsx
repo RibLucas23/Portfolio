@@ -9,6 +9,7 @@ import championShipVinylImg from "../../public/images/projects/championShip_viny
 import coderProyectFront from '../../public/images/projects/CoderProyectFront.png'
 import CoderProyectBack from '../../public/images/projects/CoderProyectBack.png'
 import pizzaProyect from '../../public/images/projects/NicastroPizza.png'
+import monitoProyect from '../../public/images/projects/monito_petshop.png'
 import HCProyect from '../../public/images/projects/HC.png'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -120,6 +121,16 @@ const Projects = () => {
 
 						<div className='col-span-6 sm:col-span-12'>
 							<Project
+								title="Historias Comunes"
+								link="https://historias-comunes.vercel.app"
+								type="Featured Project"
+								github="https://github.com/RibLucas23/historiasComunes"
+								img={HCProyect}
+							/>
+						</div>
+
+						<div className='col-span-6 sm:col-span-12'>
+							<Project
 								title="Coder Proyect Frontend"
 								link="https://github.com/RibLucas23/backendFinal-Front"
 								type="Featured Project"
@@ -127,13 +138,14 @@ const Projects = () => {
 								img={coderProyectFront}
 							/>
 						</div>
-						<div className='col-span-6 sm:col-span-12'>
-							<Project
-								title="Coder Proyect Backend"
-								link="https://github.com/RibLucas23/backendFinal"
+						<div className='col-span-12'>
+							<FeaturedProject
+								title="Monito PetShop"
+								summary="FullStack Integrative Project using NestJS for the backend and React with Vite for the frontend. Includes comprehensive testing with Cypress for end-to-end tests and Jest for unit/integration tests. Features a modular architecture, RESTful API, JWT authentication, and responsive design."
+								link="https://github.com/RibLucas23/FullStack-Nest-React"
 								type="Featured Project"
-								github="https://github.com/RibLucas23/backendFinal"
-								img={CoderProyectBack}
+								github="https://github.com/RibLucas23/FullStack-Nest-React"
+								img={monitoProyect}
 							/>
 						</div>
 						<div className='col-span-12'>
@@ -149,11 +161,11 @@ const Projects = () => {
 						</div>
 						<div className='col-span-6 sm:col-span-12'>
 							<Project
-								title="Historias Comunes"
-								link="https://historias-comunes.vercel.app"
+								title="Coder Proyect Backend"
+								link="https://github.com/RibLucas23/backendFinal"
 								type="Featured Project"
-								github="https://github.com/RibLucas23/historiasComunes"
-								img={HCProyect}
+								github="https://github.com/RibLucas23/backendFinal"
+								img={CoderProyectBack}
 							/>
 						</div>
 					</div>

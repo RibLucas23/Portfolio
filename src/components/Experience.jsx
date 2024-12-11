@@ -54,12 +54,20 @@ const Experience = () => {
 				/>
 				<ul className=' w-full flex flex-col items-start justify-between ml-4 '>
 					<Details
-						position='Fronted Developer'
+						position='FullStack Developer'
 						company='DevoCamp'
 						companyLink='https://devocamptuc.com'
 						time='2023-Present'
 						adress='Weehawken, New Jersey'
-						work='Worked on a  frontend team responsible for developing web desing and components with NextJs and Tailwind CSS'
+						work='I am an integral member of the Full-Stack Development team, specializing in building robust and scalable applications using technologies such as NestJS, Docker, Next.js, Tailwind CSS, Jest, and Playwright. My role involves designing and implementing end-to-end solutions while ensuring high code quality and performance optimization.'
+					/>
+					<Details
+						position='Fronted Developer'
+						company='Easy Life Marketing'
+						companyLink='https://www.easylifemk.com'
+						time='2024'
+						adress='Madrid, España'
+						work='Completed a two-month freelance project, where I developed six customizable templates in Next.js. These templates empower users to create their own unique web pages effortlessly, leveraging a modular and user-friendly design system.'
 					/>
 					<Details
 						position='FullStack Developer'
